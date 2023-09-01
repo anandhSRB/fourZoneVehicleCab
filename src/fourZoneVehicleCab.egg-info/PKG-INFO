@@ -1,3 +1,20 @@
+Metadata-Version: 2.1
+Name: fourZoneVehicleCab
+Version: 0.1.0.3
+Summary: A zonal vehicle cabin climate model to estimate temperature, CO2 and humidity transport.
+Home-page: https://github.com/anandhSRB/fourZoneVehicleCab
+Author: Anandh Ramesh Babu
+Author-email: anandh.rameshbabu@chalmers.se
+Keywords: Zonal cabin climate model,vehicle cabin thermal model
+Classifier: Programming Language :: Python :: 3.8
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Other Audience
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: Education
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
 # fourZoneVehicleCab
 Four zone vehicle cabin with incompressible air        
 Explicit First order discretized for energy solver included for each control volume.
@@ -63,3 +80,9 @@ cab.simulate(dt,totalTime,vehVel,tempAmb,tempAmb,solidTemp,RHAmb,massIn,tempIn,h
 ```
 ## 
 
+
+
+# CHANGELOG
+
+## Version 0.1.0
+Initial commit

@@ -1,7 +1,7 @@
 from setuptools import setup
 setup(    
     name = 'fourZoneVehicleCab',     
-    version = '0.1.0',    
+    version = '0.1.0.3',    
     description = 'A zonal vehicle cabin climate model to estimate temperature, CO2 and humidity transport.',       
     py_modules = ["fourZoneVehicleCab"],    
     package_dir = {'':'src'},
@@ -13,7 +13,7 @@ setup(
     include_package_data=True,    
     classifiers  = [
         'Programming Language :: Python :: 3.8',
-        "License :: OSI Approved :: BSD License",
+        "License :: OSI Approved :: MIT License",
         'Intended Audience :: Developers',
         'Intended Audience :: Other Audience',
         'Intended Audience :: Science/Research',
@@ -22,8 +22,7 @@ setup(
     install_requires = [
 
         'pandas',
-		'numpy',
-		'pythermalcomfort',
+		'numpy',		
 		'jos3',		
 
     ],        
